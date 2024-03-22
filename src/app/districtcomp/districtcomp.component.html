@@ -1,0 +1,65 @@
+
+
+
+<div class="sidebar">
+
+    <app-sidenav></app-sidenav>
+
+
+</div>
+
+<div class="container">
+
+
+
+     <div class="dbl-field">
+        <div class="field">
+
+            <select name="districtName">
+                <option>--Choisir un district--</option>
+                <option *ngFor="let districtName of districtNames"  [value]="districtName.id">{{districtName.name}}</option>   
+            </select>
+
+
+        </div>
+
+        <div class="field">
+
+             
+
+
+        </div>
+
+     </div>
+
+  
+
+
+</div>
+
+<div class="charts">
+
+    <div class="chartDistrict" style="width: 600px; height: 600px;">
+        <h2> Bar Chart</h2>
+        <canvas id="piechart"></canvas>
+      </div>
+
+
+
+       <div class="line"  style="width: 600px; height: 600px;" >
+            <h2> Pie Chart</h2>
+            <canvas id="barchart"></canvas>
+        </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
+

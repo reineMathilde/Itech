@@ -1,0 +1,4 @@
+<h2>Upload CSV File</h2>
+<input type="file" style="display:none;" #importCSV (change)="fileSelection($event)" accept=".csv">
+<label>Selectionner CSV </label>
+<button (click)="importCSV.click();">Upload</button>

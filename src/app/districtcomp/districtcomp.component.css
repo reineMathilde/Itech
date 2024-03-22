@@ -1,0 +1,71 @@
+ 
+ .container{
+
+
+    margin-top: 100px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .container .dbl-field{
+	display: flex;
+	margin-bottom: 25px;
+	justify-content: space-between;
+  }
+  .container  .dbl-field .field{
+	height: 50px;
+	display: flex;
+	position: relative;
+	width: calc(100% / 2 - 13px);
+  }
+
+  .container .dbl-field  .field select{
+
+	width: 50%;
+	height: 70%;
+	outline: none;
+	padding: 0 18px 0 18px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+    color: black;
+
+  }
+
+  .container .dbl-field  .field select option{
+    color: yellow;
+    background-color: black;
+  }
+
+  .charts {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 5px;
+  }
+  
+.chartDistrict {
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+
+  
+.line {
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+  }
